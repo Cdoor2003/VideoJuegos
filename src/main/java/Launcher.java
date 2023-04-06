@@ -9,11 +9,11 @@ public class Launcher {
         Arena arena = new Arena();
         System.out.println("Ingresa el nombre de tu personaje: ");
         String nombre = teclado.next();
-        System.out.println("Ingresa la fuerza de tu personaje(20-100): ");
+        System.out.println("Ingresa la fuerza de tu personaje (20-100): ");
         int fuerza = teclado.nextInt();
-        System.out.println("Ingresa la velocidad de tu personaje(20-100): ");
+        System.out.println("Ingresa la velocidad de tu personaje (20-100): ");
         int velocidad = teclado.nextInt();
-        System.out.println("Ingresa la vida de tu personaje(20-100): ");
+        System.out.println("Ingresa la vida de tu personaje (20-100): ");
         int vida = teclado.nextInt();
         System.out.println("Ingresa el nombre del ataque de tu personaje: ");
         String ataque = teclado.next();
